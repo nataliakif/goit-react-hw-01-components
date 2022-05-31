@@ -1,0 +1,31 @@
+.friend-list {
+  width: 320px;
+  margin: 20px auto;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  box-shadow: 1px 2px 3px #868889;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.avatar {
+  display: block;
+  margin-right: 30px;
+}

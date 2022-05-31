@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styles from '../sass/profile.css';
+import styles from './Profile.module.css';
 
 function Profile({ username, tag, location, avatar, stats }) {
   return (
